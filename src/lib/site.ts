@@ -30,6 +30,6 @@ Product: ${params.product}
 Size: ${params.size}
 Quantity: ${params.quantity}
 Price: ${formatNaira(params.price)}`;
-  const num = params.number ?? site.whatsapp[0].intl;
+  const num = params.number ?? site.whatsapp[0]!.intl;
   return `https://wa.me/${num}?text=${encodeURIComponent(text)}`;
 }
