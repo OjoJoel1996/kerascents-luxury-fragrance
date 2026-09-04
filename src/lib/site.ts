@@ -1,7 +1,7 @@
 export const site = {
   name: "KERAscents",
   tagline: "Authentic Scents. Timeless Impressions.",
-  email: "hello@kerascents.com",
+  email: "kerascents@gmail.com",
   instagram: "https://instagram.com/kerascents",
   tiktok: "https://tiktok.com/@kerascents",
   facebook: "https://facebook.com/kerascents",
