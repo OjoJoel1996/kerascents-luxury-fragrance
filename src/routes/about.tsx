@@ -73,12 +73,12 @@ function About() {
             <Link to="/shop">Shop the collection</Link>
           </Button>
         </div>
-        <div className="relative overflow-hidden rounded-lg">
+        <div className="relative mx-auto aspect-square w-full max-w-sm overflow-hidden rounded-full border-4 border-gold/30 shadow-xl lg:max-w-md">
           <img
             src={ceoAsset.url}
             alt="CEO of KERAscents"
             loading="lazy"
-            className="aspect-[4/5] w-full object-cover"
+            className="h-full w-full object-cover"
           />
         </div>
       </section>
